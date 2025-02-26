@@ -97,7 +97,7 @@ class ProductDetails extends StatelessWidget {
                           copyWith(fontSize: 16.sp),
                           children: [
                             TextSpan(
-                                text: '\$10',
+                                text: '\$${item.productPrice}',
                                 style: Theme.of(context).textTheme.titleSmall!.
                                 copyWith(fontSize: 30.sp)
                             )
